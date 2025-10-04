@@ -1,0 +1,6 @@
+
+*.swift linguist-detectable=true
+*.xcassets linguist-detectable=false
+*.h linguist-detectable=false
+*.gguf linguist-detectable=false
+*.md linguist-detectable=false
