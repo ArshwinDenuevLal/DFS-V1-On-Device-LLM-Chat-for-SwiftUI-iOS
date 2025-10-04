@@ -61,4 +61,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
-DFSVOneChat/deepseek-llm-7b-base.Q4_K_M.gguf
+*.gguf

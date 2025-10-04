@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8421E76D2E903CCD002F5E25 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E75B2E903CCD002F5E25 /* ChatView.swift */; };
+		8421E76E2E903CCD002F5E25 /* DFSVOneChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E75E2E903CCD002F5E25 /* DFSVOneChatApp.swift */; };
+		8421E76F2E903CCD002F5E25 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E7692E903CCD002F5E25 /* Item.swift */; };
+		8421E7702E903CCD002F5E25 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421E76B2E903CCD002F5E25 /* ModelManager.swift */; };
+		8421E7722E903CCD002F5E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8421E75A2E903CCD002F5E25 /* Assets.xcassets */; };
+		8421E7742E903CCD002F5E25 /* README 2.md in Resources */ = {isa = PBXBuildFile; fileRef = 8421E76C2E903CCD002F5E25 /* README 2.md */; };
+		8421E77C2E903D70002F5E25 /* deepseek-llm-7b-base.Q4_K_M.gguf in Resources */ = {isa = PBXBuildFile; fileRef = 8421E77B2E903D70002F5E25 /* deepseek-llm-7b-base.Q4_K_M.gguf */; };
 		84F444972E74C1D500B6EC6B /* llama.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F444962E74C1D500B6EC6B /* llama.xcframework */; };
 		84F444982E74C1D500B6EC6B /* llama.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84F444962E74C1D500B6EC6B /* llama.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -43,6 +50,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8421E75A2E903CCD002F5E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8421E75B2E903CCD002F5E25 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8421E75D2E903CCD002F5E25 /* DFSVOneChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DFSVOneChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		8421E75E2E903CCD002F5E25 /* DFSVOneChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFSVOneChatApp.swift; sourceTree = "<group>"; };
+		8421E75F2E903CCD002F5E25 /* ggml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ggml.h; sourceTree = "<group>"; };
+		8421E7602E903CCD002F5E25 /* ggml 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml 2.h"; sourceTree = "<group>"; };
+		8421E7612E903CCD002F5E25 /* ggml-alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-alloc.h"; sourceTree = "<group>"; };
+		8421E7622E903CCD002F5E25 /* ggml-backend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-backend.h"; sourceTree = "<group>"; };
+		8421E7632E903CCD002F5E25 /* ggml-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-common.h"; sourceTree = "<group>"; };
+		8421E7642E903CCD002F5E25 /* ggml-cpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-cpu.h"; sourceTree = "<group>"; };
+		8421E7652E903CCD002F5E25 /* ggml-impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-impl.h"; sourceTree = "<group>"; };
+		8421E7662E903CCD002F5E25 /* ggml-quants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-quants.h"; sourceTree = "<group>"; };
+		8421E7672E903CCD002F5E25 /* ggml-threading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ggml-threading.h"; sourceTree = "<group>"; };
+		8421E7682E903CCD002F5E25 /* gguf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gguf.h; sourceTree = "<group>"; };
+		8421E7692E903CCD002F5E25 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		8421E76A2E903CCD002F5E25 /* llama-impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "llama-impl.h"; sourceTree = "<group>"; };
+		8421E76B2E903CCD002F5E25 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		8421E76C2E903CCD002F5E25 /* README 2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README 2.md"; sourceTree = "<group>"; };
+		8421E77B2E903D70002F5E25 /* deepseek-llm-7b-base.Q4_K_M.gguf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "deepseek-llm-7b-base.Q4_K_M.gguf"; sourceTree = "<group>"; };
 		84F438B92E74B41300B6EC6B /* DFSVOneChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFSVOneChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F438CB2E74B41500B6EC6B /* DFSVOneChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFSVOneChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F438D52E74B41500B6EC6B /* DFSVOneChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFSVOneChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,9 +76,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		84F438BB2E74B41300B6EC6B /* DFSVOneChat */ = {
+		8421E77E2E910699002F5E25 /* Preview Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DFSVOneChat;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		84F438CE2E74B41500B6EC6B /* DFSVOneChatTests */ = {
@@ -96,7 +122,26 @@
 		84F438B02E74B41200B6EC6B = {
 			isa = PBXGroup;
 			children = (
-				84F438BB2E74B41300B6EC6B /* DFSVOneChat */,
+				8421E77E2E910699002F5E25 /* Preview Content */,
+				8421E75A2E903CCD002F5E25 /* Assets.xcassets */,
+				8421E75B2E903CCD002F5E25 /* ChatView.swift */,
+				8421E77B2E903D70002F5E25 /* deepseek-llm-7b-base.Q4_K_M.gguf */,
+				8421E75D2E903CCD002F5E25 /* DFSVOneChat-Bridging-Header.h */,
+				8421E75E2E903CCD002F5E25 /* DFSVOneChatApp.swift */,
+				8421E75F2E903CCD002F5E25 /* ggml.h */,
+				8421E7602E903CCD002F5E25 /* ggml 2.h */,
+				8421E7612E903CCD002F5E25 /* ggml-alloc.h */,
+				8421E7622E903CCD002F5E25 /* ggml-backend.h */,
+				8421E7632E903CCD002F5E25 /* ggml-common.h */,
+				8421E7642E903CCD002F5E25 /* ggml-cpu.h */,
+				8421E7652E903CCD002F5E25 /* ggml-impl.h */,
+				8421E7662E903CCD002F5E25 /* ggml-quants.h */,
+				8421E7672E903CCD002F5E25 /* ggml-threading.h */,
+				8421E7682E903CCD002F5E25 /* gguf.h */,
+				8421E7692E903CCD002F5E25 /* Item.swift */,
+				8421E76A2E903CCD002F5E25 /* llama-impl.h */,
+				8421E76B2E903CCD002F5E25 /* ModelManager.swift */,
+				8421E76C2E903CCD002F5E25 /* README 2.md */,
 				84F438CE2E74B41500B6EC6B /* DFSVOneChatTests */,
 				84F438D82E74B41500B6EC6B /* DFSVOneChatUITests */,
 				84F444952E74C1D400B6EC6B /* Frameworks */,
@@ -139,7 +184,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				84F438BB2E74B41300B6EC6B /* DFSVOneChat */,
+				8421E77E2E910699002F5E25 /* Preview Content */,
 			);
 			name = DFSVOneChat;
 			packageProductDependencies = (
@@ -247,6 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8421E77C2E903D70002F5E25 /* deepseek-llm-7b-base.Q4_K_M.gguf in Resources */,
+				8421E7722E903CCD002F5E25 /* Assets.xcassets in Resources */,
+				8421E7742E903CCD002F5E25 /* README 2.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8421E76D2E903CCD002F5E25 /* ChatView.swift in Sources */,
+				8421E76E2E903CCD002F5E25 /* DFSVOneChatApp.swift in Sources */,
+				8421E76F2E903CCD002F5E25 /* Item.swift in Sources */,
+				8421E7702E903CCD002F5E25 /* ModelManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
